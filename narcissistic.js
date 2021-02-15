@@ -1,5 +1,6 @@
 const narcissistic = (value) => {
     let arrayOfDigits = value.toString().split("");
+    console.log(arrayOfDigits);
     let numberOfDigits = arrayOfDigits.length;
   
     arrayOfDigits.forEach((entry) =>
@@ -9,4 +10,6 @@ const narcissistic = (value) => {
     return arrayOfDigits.reduce((a, b) => a + b, 0) === value ? true : false;
   };
   
-  console.log(narcissistic(333));
+  console.log(narcissistic(371));
+
+  module.exports = narcissistic;

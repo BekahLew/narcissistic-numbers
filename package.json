@@ -1,0 +1,22 @@
+{
+  "name": "narcissistic-numbers",
+  "version": "1.0.0",
+  "description": "A Narcissistic Number is a number of length n in which the sum of its digits to the power of n is equal to the original number. If this seems confusing, refer to the example below.",
+  "main": "narcissistic-numbers.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BekahLew/narcissistic-numbers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BekahLew/narcissistic-numbers/issues"
+  },
+  "homepage": "https://github.com/BekahLew/narcissistic-numbers#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
